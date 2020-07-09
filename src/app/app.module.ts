@@ -6,13 +6,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';  
 import {DataTablesModule} from 'angular-datatables';  
 import { StudentListComponent } from './student-list/student-list.component';  
-import { AddStudentComponent } from './add-student/add-student.component';  
+import { AddStudentComponent } from './add-student/add-student.component';
+import { PartnerlistComponent } from './partnerlist/partnerlist.component';
+import { RegisterComponent } from './register/register.component';  
 
 @NgModule({  
   declarations: [  
     AppComponent,  
     StudentListComponent,  
-    AddStudentComponent,  
+    AddStudentComponent, PartnerlistComponent, RegisterComponent,  
   ],  
   imports: [  
     BrowserModule,  

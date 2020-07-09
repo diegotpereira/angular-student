@@ -35,7 +35,7 @@
                     <td><button (click)="deleteStudent(student.student_id)" class='btn btn-primary'><i class="fa fa-futboll-0">Deletar</i>
                     </button>   
                       <button (click)="updateStudent(student.student_id)" class='btn btn-info'  
-                      data-toggle="modal" data-target="#myModal">Atualizar</button>  
+                      data-toggle="modal" data-target="#myModal">Update</button>  
                     </td>  
                   </tr>   
             </tbody><br>  
@@ -49,7 +49,7 @@
                   <form [formGroup]="studentupdateform" #updstu (ngSubmit)="updateStu(updstu)">  
               <!-- Modal Header -->  
               <div class="modal-header">  
-                <h4 class="modal-title" style="text-align: center">Atualizar Estudante</h4>  
+                <h4 class="modal-title" style="text-align: center">Update</h4>  
                   
               </div>  
                 
@@ -69,7 +69,7 @@
                               </div>  
                         
                               <div class="form-group">  
-                                  <label for="name">Estudante Branch</label>  
+                                  <label for="name">Estudante Área</label>  
                                     <select class="form-control" formControlName="student_branch" required>                                     
                                       <option value="B-Tech" [selected]="'B-Tech' == student.student_branch">B-Tech</option>  
                                       <option value="BCA" [selected]="'BCA' == student.student_branch">BCA</option>  
