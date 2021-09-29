@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "~9.0.0-rc.7",
     "@angular/router": "~9.0.0-rc.7",
     "angular-datatables": "^9.0.2",
-    "datatables.net": "^1.10.21",
+    "datatables.net": "^1.11.3",
     "datatables.net-dt": "^1.10.21",
     "jquery": "^3.5.1",
     "rxjs": "~6.5.3",
